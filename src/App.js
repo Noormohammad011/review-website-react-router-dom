@@ -9,8 +9,8 @@ import FaqPage from './pages/FaqPage';
 import NotFoundPage from './pages/NotFoundPage';
 const App = () => {
   return (
-    <Layout>
-      <Router>
+    <Router>
+      <Layout>
         <Switch>
           <Route path='/' component={HomePage} exact />
           <Route path='/about' component={AboutPage} exact />
@@ -18,8 +18,8 @@ const App = () => {
           <Route path='/faq' component={FaqPage} exact />
           <Route path='*' component={NotFoundPage} exact />
         </Switch>
-      </Router>
-    </Layout>
+      </Layout>
+    </Router>
   )
 }
 

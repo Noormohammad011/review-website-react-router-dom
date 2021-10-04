@@ -2,9 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <h2>Footer COmponents</h2>
-    </div>
+    <footer>
+      <div className='container-fluid bg-dark text-white'>
+        <div className='row'>
+          <div className='col text-center py-3'>
+            Copyright &copy; ShohojShikhi
+          </div>
+        </div>
+      </div>
+    </footer>
   )
 }
 
