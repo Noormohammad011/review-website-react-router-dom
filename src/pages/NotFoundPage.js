@@ -8,8 +8,9 @@ const NotFoundPage = () => {
     >
       <div>
         <h1>
-          Not <i className='fas fa-bomb'>Found</i>
+          404 Not <i className='fas fa-bomb'>Found</i>
         </h1>
+        <h3>The page you are looking for is not available</h3>
       </div>
     </div>
   )
