@@ -34,7 +34,7 @@ const ContactUsPage = () => {
 
         <div className='col-12'>
           <div class='mb-3'>
-            <label for='exampleFormControlTextarea1' class='form-label'>
+            <label htmlFor='exampleFormControlTextarea1' class='form-label'>
               Fill Free to submit
             </label>
             <textarea
@@ -48,7 +48,7 @@ const ContactUsPage = () => {
         <div className='col-12'>
           <div className='d-grid '>
             <button className='btn btn-primary' type='button'>
-               Submit
+              Submit
             </button>
           </div>
         </div>

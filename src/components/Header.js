@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
       <div className='container'>
-        <Link to='/' className='navbar-brand' >
-          Navbar
+        <Link to='/' className='navbar-brand'>
+          SOHOJSIKHI
         </Link>
         <button
           className='navbar-toggler'

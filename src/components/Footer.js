@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='container-fluid bg-dark text-white'>
         <div className='row'>
           <div className='col text-center py-3'>
-            Copyright &copy; ShohojShikhi
+            Copyright &copy; SohojShikhi
           </div>
         </div>
       </div>
