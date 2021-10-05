@@ -1,12 +1,10 @@
 import React, { useContext } from 'react'
-
 import { CourseContext } from '../App'
 import Courses from '../components/Courses'
 import Loader from '../components/Loader'
 import Message from '../components/Message'
 
 const HomePage = () => {
-
   const { fetchCoursesFromExternal } = useContext(CourseContext)
   const { result, error, loading } = fetchCoursesFromExternal
 

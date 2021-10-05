@@ -33,7 +33,7 @@ const FaqPage = () => {
       <h1>Common Question is Answer</h1>
       <div className='row'>
         <div className='col'>
-          <div class='accordion' id='accordionExample'>
+          <div className='accordion' id='accordionExample'>
             {faq.map((f, i) => (
               <Accordian _id={f._id} title={f.title} body={f.body} key={i} />
             ))}

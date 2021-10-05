@@ -27,8 +27,9 @@ const Courses = ({ course }) => {
             </li>
             <li className='list-group-item'>Price:{price}</li>
             <li className='list-group-item'>
-              Instructor: {instructor?.map((m, i) => (
-                <h6> {m.name}</h6>
+              Instructor:{' '}
+              {instructor?.map((m, i) => (
+                <h6 key={i}> {m.name}</h6>
               ))}
             </li>
           </ul>

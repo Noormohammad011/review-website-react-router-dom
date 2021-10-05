@@ -33,12 +33,12 @@ const ContactUsPage = () => {
         </div>
 
         <div className='col-12'>
-          <div class='mb-3'>
-            <label htmlFor='exampleFormControlTextarea1' class='form-label'>
+          <div className='mb-3'>
+            <label htmlFor='exampleFormControlTextarea1' className='form-label'>
               Fill Free to submit
             </label>
             <textarea
-              class='form-control'
+              className='form-control'
               id='exampleFormControlTextarea1'
               rows='3'
             ></textarea>
